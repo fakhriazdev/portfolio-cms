@@ -21,8 +21,7 @@ const updateUserSchema = z.object({
     email: z.email().optional(),
 })
 
-// Mock data - dalam production gunakan database
-let users: User[] = [
+const users: User[] = [
     {
         id: '1',
         name: 'John Doe',
