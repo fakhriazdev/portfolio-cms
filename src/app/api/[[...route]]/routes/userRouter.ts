@@ -13,12 +13,12 @@ interface User {
 // Validation schemas
 const createUserSchema = z.object({
     name: z.string().min(1, 'Name is required'),
-    email: z.string().email('Invalid email format'),
+    email: z.email('Invalid email format'),
 })
 
 const updateUserSchema = z.object({
     name: z.string().min(1).optional(),
-    email: z.string().email().optional(),
+    email: z.email().optional(),
 })
 
 // Mock data - dalam production gunakan database
