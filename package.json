@@ -12,7 +12,7 @@
     "@hono/node-server": "^1.18.2",
     "@hono/zod-validator": "^0.7.2",
     "hono": "^4.9.1",
-    "next": "15.4.6",
+    "next": "15.4.10",
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "zod": "^4.0.17"
